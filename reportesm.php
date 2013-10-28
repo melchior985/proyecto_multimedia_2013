@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>Reportes</title>
 	<link rel="stylesheet" type="text/css" href="e_reporte.css" />
-	<link rel="stylesheet" type="text/css" media="print" href="impresion.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="impresion_reportes.css" />
 	<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
 		<script type="text/javascript" language="javascript" src="js/modal-window.min.js"></script>
 		<script src="js/Ejemplos.js" type="text/javascript"></script>
@@ -197,7 +197,7 @@
 			<div class="page_navigation"></div>
 		</div>
 		
-<div class= "botones">
+		<div class= "botones">
 			 <a href="#" > <img src="Imagenes/impresora.png" id="imprimir" title="Imprimir" onClick="window.print()"></a>
 			 <a href="#" > <img src="Imagenes/pdf.png" id="pdf" title="Generar PDF"></a>
 			 

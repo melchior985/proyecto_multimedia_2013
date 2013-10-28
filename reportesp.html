@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>Reportes</title>
 	<link rel="stylesheet" type="text/css" href="e_reporte.css" />
-	<link rel="stylesheet" type="text/css" media="print" href="impresion.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="impresion_reportes.css" />
 	<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
 		<script type="text/javascript" language="javascript" src="js/modal-window.min.js"></script>
 		<script src="js/Ejemplos.js" type="text/javascript"></script>
@@ -69,6 +69,71 @@
 						</div>
 					</li>
 						<?php $csv_output .="Pasta a la Bolognesa" . ","; ?>
+						<li id="gris">	
+						<div class="caja">
+							<div class="nombre">
+								 <strong><p>Chef:</p><p id="info">Jose</p></strong>
+								 <strong><p>Fecha:</p><p id="info">  31/03/2013</p></strong>
+								 <?php $csv_output .="Jose" . ","; ?>
+								 <?php $csv_output .="01/03/2013" . ","; ?>	
+							</div>
+							<div class="orden">
+									 <strong><p>Orden N°:</p></strong> <p id="info2"><strong>102487</strong></p>
+									 <strong><p>Pedido: </p></strong> <strong><p id="info3">Pasta a la bolognesa, Pasta a la bolognesa, CocaCola 500ml, Frescolita 500ml, Asado Negro, Gordon Blu</p></strong>
+									 <?php $csv_output .="102487" . ","; ?>
+									 <?php $csv_output .="Pasta a la bolognesa, Pasta a la bolognesa, CocaCola 500ml, Frescolita 500ml, Asado Negro, Gordon Blu" . "\n"; ?>
+							</div>
+						</div>
+					</li>
+					<?php $csv_output .="Pasta a la Bolognesa" . ","; ?>
+						<li id="gris">	
+						<div class="caja">
+							<div class="nombre">
+								 <strong><p>Chef:</p><p id="info">Jose</p></strong>
+								 <strong><p>Fecha:</p><p id="info">  31/03/2013</p></strong>
+								 <?php $csv_output .="Jose" . ","; ?>
+								 <?php $csv_output .="01/03/2013" . ","; ?>	
+							</div>
+							<div class="orden">
+									 <strong><p>Orden N°:</p></strong> <p id="info2"><strong>102487</strong></p>
+									 <strong><p>Pedido: </p></strong> <strong><p id="info3">Pasta a la bolognesa, Pasta a la bolognesa, CocaCola 500ml, Frescolita 500ml, Asado Negro, Gordon Blu</p></strong>
+									 <?php $csv_output .="102487" . ","; ?>
+									 <?php $csv_output .="Pasta a la bolognesa, Pasta a la bolognesa, CocaCola 500ml, Frescolita 500ml, Asado Negro, Gordon Blu" . "\n"; ?>
+							</div>
+						</div>
+					</li><?php $csv_output .="Pasta a la Bolognesa" . ","; ?>
+						<li id="gris">	
+						<div class="caja">
+							<div class="nombre">
+								 <strong><p>Chef:</p><p id="info">Jose</p></strong>
+								 <strong><p>Fecha:</p><p id="info">  31/03/2013</p></strong>
+								 <?php $csv_output .="Jose" . ","; ?>
+								 <?php $csv_output .="01/03/2013" . ","; ?>	
+							</div>
+							<div class="orden">
+									 <strong><p>Orden N°:</p></strong> <p id="info2"><strong>102487</strong></p>
+									 <strong><p>Pedido: </p></strong> <strong><p id="info3">Pasta a la bolognesa, Pasta a la bolognesa, CocaCola 500ml, Frescolita 500ml, Asado Negro, Gordon Blu</p></strong>
+									 <?php $csv_output .="102487" . ","; ?>
+									 <?php $csv_output .="Pasta a la bolognesa, Pasta a la bolognesa, CocaCola 500ml, Frescolita 500ml, Asado Negro, Gordon Blu" . "\n"; ?>
+							</div>
+						</div>
+					</li><?php $csv_output .="Pasta a la Bolognesa" . ","; ?>
+						<li id="gris">	
+						<div class="caja">
+							<div class="nombre">
+								 <strong><p>Chef:</p><p id="info">Jose</p></strong>
+								 <strong><p>Fecha:</p><p id="info">  31/03/2013</p></strong>
+								 <?php $csv_output .="Jose" . ","; ?>
+								 <?php $csv_output .="01/03/2013" . ","; ?>	
+							</div>
+							<div class="orden">
+									 <strong><p>Orden N°:</p></strong> <p id="info2"><strong>102487</strong></p>
+									 <strong><p>Pedido: </p></strong> <strong><p id="info3">Pasta a la bolognesa, Pasta a la bolognesa, CocaCola 500ml, Frescolita 500ml, Asado Negro, Gordon Blu</p></strong>
+									 <?php $csv_output .="102487" . ","; ?>
+									 <?php $csv_output .="Pasta a la bolognesa, Pasta a la bolognesa, CocaCola 500ml, Frescolita 500ml, Asado Negro, Gordon Blu" . "\n"; ?>
+							</div>
+						</div>
+					</li><?php $csv_output .="Pasta a la Bolognesa" . ","; ?>
 						<li id="gris">	
 						<div class="caja">
 							<div class="nombre">
