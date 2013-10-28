@@ -1,0 +1,331 @@
+/*Propiedades del body*/
+body {
+	background: url(Imagenes/fondo.png);
+	background-repeat: repeat;
+}
+/*caja que del contenido de la pagina*/
+div.general {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-width: 800px;
+	display: inline-block;
+}
+/*Caja que contiene el logo de Raklett*/
+div.logo {
+	background: url(Imagenes/logohome.png);
+	background-repeat: repeat;
+	width: 650px;
+	height: 300px;
+	margin-left: 100px;
+	margin-right: auto;
+}
+
+/*Caja del encabezado*/
+div.encabezado {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background:url(Imagenes/menu.png);
+	width: 414px;
+	height: 67px;
+	margin-top: 35px;
+}
+div.encabezado2 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background:url(Imagenes/menu_grande.png);
+	width: 534px;
+	height: 70px;
+	margin-top: 35px;
+}
+
+/*Propiedades del texto del encabezado*/
+.encabezado,.h1{
+	font-size: x-small;
+	letter-spacing: .1em;
+	/*text-shadow: -1px -1px 1px #111, 2px 2px 1px #FF6600;*/
+	padding-top: 0.5px;
+	color: #330033;
+}
+ul.menu li{
+	list-style: none;
+	float: left;
+	margin-left: 40px;
+	margin-top: 15px;
+	font-size: 13px;
+}
+ul.menu li a,
+ul.menu li a:link,
+ul.menu li a:visited{
+	text-decoration: none;
+	display: block;
+	padding: 6px 1px;
+	color: #330033;
+	font-size: 100%;
+	/*background-color: #FFCC88;*/
+}
+ul.menu li a:hover{
+	color: #FF6600;
+}
+ul.menu li a:active{
+	color: #000033;
+	background-color: #FFCC99
+}
+/*Caja del Footer*/
+div.footer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #FFCC66;
+	position: static;
+	margin-top: 55px;
+}
+/*propiedades para que el login se vea opaco*/
+div.login {
+	background-color: #FFFFFF;
+	width: 230px;
+	height: 280px;
+	margin-top: -275px;
+	float: right;
+	margin-left: 850px;
+	opacity: 0.3;
+	border-radius: 5px;
+	z-index: 5;
+	position: absolute;
+}
+/*Caja que contiene los elementos del login*/
+div.login2 {
+	width: 230px;
+	height: 280px;
+	margin-top: -275px;
+	float: right;
+	margin-left: 850px;
+	text-align: left;
+	z-index: 15;
+	position: absolute;
+}
+div.etilogo{
+	width: 140px;
+	height: 40px;
+	background-color: #FFFFFF;
+	margin-top: -300px;
+	position: absolute;
+	overflow: hidden;
+	background:url(Imagenes/iniciar.png);
+	margin-left: 895px;
+	z-index: 20;
+}
+.etilogo,.h2{
+	letter-spacing: .1em;
+	/*text-shadow: -1px -1px 1px #111, 2px 2px 1px #FF6600;*/
+	padding-top: 0.5px;
+	color: #330033;
+	font-size: medium;	
+	padding-bottom: 1px;
+}
+
+/*propiedades del chef*/
+div.orden{
+	margin-left: auto;
+	margin-right: auto;
+	width: 920px;
+	height: 300px;
+	overflow: scroll;
+	padding-top: 10px;
+}
+div.orden1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 100px;
+	background-color: #CC0000;
+	border-radius: 5px;
+	padding-top: 5px;
+}
+div.implato{
+	width: 150px;
+	height: 60px;
+	background-color: #CCFF00;
+	margin-left: 20px;
+}
+div.nmplato{
+	width: 450px;
+	height: 60px;
+	color: #CCFF00;
+	margin-left: 190px;
+	margin-top: -110px;
+}
+p.nmpl{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: xx-large;
+}
+div.tmplato{
+	width: 200px;
+	height: 60px;
+	color: #CCFF00;
+	margin-left: 610px;
+	margin-top: -70px;
+}
+p.tmpl{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: xx-large;
+	color: #FFFFFF;
+}
+div.ok{
+	margin-left: 790px;
+	margin-top: -52px;
+	padding-top: 10px;
+}
+a.boton{
+	display: block;
+	border: 1px outset #666;
+	border-radius: 5px;
+	padding: 4px 8px;
+	width: 80px;
+	height: 40px;
+	background-color: #990000;
+	border-color: #FFFF00;
+	color: #FFFF00;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: xx-large;
+}
+a.boton:hover{
+	background-color: #993333;
+}
+/*propiedades para el administrador*/
+div.admin{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	width: 900px;
+	height: 330px;
+}
+/*Propiedades para el mesonero*/
+/*este div es para que el fondo se vea opaco*/
+div.meso{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	width: 900px;
+	height: 330px;
+	opacity: 0.3;
+	z-index: 5;
+}
+/*en este div si se va meter las mesas y los pedidos*/
+div.meso1{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	width: 900px;
+	height: 330px;
+	z-index: 10;
+	margin-top: -347px;
+}
+/*desde aqui hasta que se vuelva a comentar comienzan cajas y 
+ propiedades para efectos de la seccion de login*/
+div.check {
+	margin-left: 70px;
+}
+div.recordar {
+	margin-top: -50px;
+}
+div.olvidos {
+	margin-left: 20px;
+}
+#boton_iniciar, #recordarme, #Usuario, #password {
+	margin-left: 20px;
+}
+#check {
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+#olvido1, #olvido2 {
+	color: #FFCC66;
+	font-family: "Times New Roman";
+	font-size: 80%;
+	text-decoration: none;
+}
+#olvido1:hover,#olvido2:hover,#finalizar:hover{
+	color: #FF6600;
+}
+#finalizar{
+	color: #FFCC66;
+	font-family: "Times New Roman";
+	font-size: 100%;
+	text-decoration: none;
+}
+#usuario{
+	color: #000033;
+	text-align: center;
+	margin-top: 50px;
+	text-decoration: blink;
+	-webkit-text-decoration: blink;
+}
+input[type="text"] {
+	margin-top: 15px;
+	height: 20px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ff6600;
+	vertical-align: middle;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #ffcc99;
+	border: 1px solid #ff6600;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+input [type="text"]:focus{
+	border-color: rgba(82,168,236,0.8);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(82,168,236,0.6);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(82,168,236,0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(82,168,236,0.6);
+
+}
+input[type="password"] {
+	height: 20px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ff6600;
+	vertical-align: middle;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #ffcc99;
+	border: 1px solid #ff6600;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+input [type="password"]:focus{
+	border-color: rgba(237,99,7,0.8);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(237,99,7,0.6);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(237,99,7,0.6;
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(237,99,7,0.6);
+}
+/*Fin de las propiedades del login*/
+
+
+
+/*Media query*/
+@media screen and (max-width: 960px){
+	#general{
+		margin-left: 10px;
+	}
+}

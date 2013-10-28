@@ -1,0 +1,340 @@
+*{margin: 0;}
+body {
+	background: url(Imagenes/fondo.png);
+	background-repeat: repeat;
+}
+#membrete{
+	width: 1024px;
+	height: auto;
+	margin: auto auto;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #330033;
+	font-family: "LiberatorRegular",sans-serif;
+
+}
+.logo2{
+	width: 25%;
+	height: 100px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#logor{
+	width: 250px;
+	height: 100px;
+}
+.titulo{
+	width: 300px;
+	height: 30px;
+	color: #FFCC33;
+	margin-top: -50px;
+	margin-left: 250px;
+
+}
+/*INDEX DE REPORTESS*/
+
+#reportes{
+    width: 70%;
+    height: auto;
+    /*height: 300px;*/
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(Imagenes/fondorepor.png);
+    box-shadow: 5px 5px 5px #000000;
+    padding: 10px;
+
+}
+
+#historial{
+	background-color: #800000;
+	width: 40%;
+	height: 30px;
+	border-radius: 10px;
+	color: #FFCC33;
+	font-family: "LiberatorRegular",sans-serif;
+	padding: 2px;
+
+
+}
+
+#novisto, #tnovisto, #mnovisto, #chnovisto, #pnovisto{
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+#visto, #tvisto, #mvisto, #chvisto, #pvisto{
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.ver{
+	background-color: #800000;
+	width: 40%;
+	height: 30px;
+	border-radius: 10px;
+	color: #FFCC33;
+	font-family: "LiberatorRegular",sans-serif;
+	padding: 2px;
+	margin-top: 10px;
+}
+#selectiempo, #selectmesonero, #selectchef, #selectplato{
+	height: 50px;
+	width: 80%;
+	
+	margin-top: 10px;
+	margin-left: 20px;
+}
+ul.filtrar li{
+	list-style: none;
+}
+
+#anos{
+  text-align: center;
+}
+#ver{
+	width: 22px;
+	height: 22px;
+	float: right;
+	margin-right: 150px;
+	margin-top: -22px;
+	 
+}
+#verm, #verp, #verch{
+	width: 22px;
+	height: 22px;
+	float: right;
+	margin-right: 350px;
+	margin-top: -22px;
+	 
+}
+#verch{
+	margin-right: 400px;	 
+}
+
+/*REPORTESS LISTOS*/
+.botones{
+	position: relative;
+    text-align: right;
+    float: left;
+    width: 100%;    
+    top: -530px;
+    right: 50px;
+}
+button.CSV{
+	position:relative;	
+	background-color:transparent;
+	border:transparent;	
+}
+form.exportar{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 1020px;
+	top: 0px;
+	
+	
+}
+#imprimir, #pdf, #csv{
+	width: 25px;
+	height: 25px;
+	
+}
+
+#imprimir:active , #pdf:active , #csv:active {
+
+	width: 25px;
+	height: 25px;
+	zoom: 500%;
+	opacity: 0.5;
+}
+#cuerpo{
+	width: 1024px;
+	height: auto;
+	margin: auto auto;
+	margin-top: 20px;
+	color: #330033;
+	font-family: "LiberatorRegular",sans-serif;
+}
+.titulo2{
+	text-align: center;
+}
+.filtro{
+  	width: 20%;
+  	height: auto;
+  	background: url(Imagenes/fondorepor.png);
+  	background-repeat: repeat;
+	display: inline-block;
+	margin-left: 10px;
+	box-shadow: 5px 5px 5px #000000;
+
+}
+.filtrop{
+  	width: 30%;
+  	height: auto;
+  	background: url(Imagenes/fondorepor.png);
+  	background-repeat: repeat;
+	display: inline-block;
+	margin-left: 10px;
+	box-shadow: 5px 5px 5px #000000;
+
+}
+ul.content li{
+	list-style: none;
+	margin-left: -60px;
+	
+	
+}
+
+.caja{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+.nombre{
+	width: 20%;
+	height: auto;
+	background: url(Imagenes/fondorepor.png);
+	background-repeat: repeat;
+	float: left;
+	margin-left: 20px;
+	box-shadow: 5px 5px 5px #000000;
+
+}
+.nombre p{
+	color: #330033;
+	text-align: left;
+	font-size: 17px;
+
+}
+#info{
+	float: right;
+	margin-top: -22px;
+	color: #FFCC33;
+	font-size: 17px;
+}
+.orden{
+	width: 70%;
+	height: auto;
+	background: url(Imagenes/fondorepor2.png);
+	background-repeat: repeat;
+	display: inline-block;
+	margin-left: 10px;
+	box-shadow: 5px 5px 5px #000000;
+}
+.orden p
+{
+	color: #330033;
+	
+}
+#info2
+{
+	
+	margin-top: -20px;
+	color: #FFCC33;
+	font-size: 17px;
+	text-align: left;
+	margin-left: 100px;
+}
+#info3
+{
+	margin-top: -20px;
+	color: #FFCC33;
+	font-size: 17px;
+	text-align: left;
+	margin-left: 100px;
+}
+footer{
+	width: 1024px;
+	height: auto;
+	margin: auto auto;
+	text-align: center;
+	margin-top: 20px;
+	color: #FFCC33;
+}
+
+@media screen and (max-width: 400px){
+
+body{
+ overflow-x: hidden;
+		
+}
+
+.titulo{
+	margin-top: -10px;
+	margin-left: 0px;
+}
+.filtro{
+	width: 10%;
+	display: inline-block;
+	height: auto;
+	
+}
+#reportes{
+	width: 70%;
+	display: inline-block;
+	height: auto;
+}
+#selectiempo{
+	width: 30%;
+	height: auto;
+}
+#ver, #verm, #verch, #verp{
+	float: none;
+	margin-top: 10px;
+	width: 50px;
+}
+.caja{
+	width: 70%;
+	display: inline-block;
+	height: auto;
+}
+.nombre{
+	width: 10%;
+	
+
+}
+.orden{
+	width: 30%;
+}
+.orden p{
+	margin-top: 0px;
+}
+.nombre p{
+	font-size: 12px;
+} 
+#info{
+	float: none;
+	margin: auto;
+	font-size: 12px;
+	
+}
+#info2, #info3{
+	float: none;
+	margin: auto;
+	font-size: 12px;
+	
+}
+
+.titulo2{
+	text-align: left;
+	margin-left: 25px;
+}
+.botones{
+ float: none;
+     text-align: left;
+     margin-left: auto;
+}
+footer{
+		width: 400px;
+	text-align: center;
+}
+}

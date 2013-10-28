@@ -1,0 +1,497 @@
+/*Body*/
+body {
+	background: url(Imagenes/fondo.png);
+	background-repeat: repeat;
+	padding: 0;
+	margin: 0;
+}
+/*Menu principal*/
+div.encabezado2{
+
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   background:url(Imagenes/menu_grande.png);
+	width: 534px;
+	height: 70px;
+	margin-top: 35px;
+
+}
+ul.menu li{
+	list-style: none;
+	float: left;
+	margin-left: 40px;
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+ul.menu li a,
+ul.menu li a:link,
+ul.menu li a:visited {
+
+	text-decoration: none;
+	display: block;
+	padding: 6px 1px;
+	color: #330033;
+	font-size: 100%;
+}
+ul.menu li a:hover{
+	color: #FF6600;
+}
+ul.menu li a:active{
+	color: #000033;
+	background-color: #FFCC99
+}
+/*divs que contienen todo*/
+div.meso{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	background-color: #000000;
+	width: 900px;
+	height: 500px;
+	opacity: 0.1;
+	z-index: 5;
+}
+
+div.meso1{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	width: 900px;
+	height: 500px;
+	z-index: 10;
+	margin-top: -500px;
+	 overflow: hidden;
+
+}
+div.meso1 h1{
+	color: rgb(255, 204, 51);
+	font-family: "LiberatorRegular",sans-serif;
+    opacity: 0.9;
+
+}
+div.salir{
+
+	float: right;
+	margin-top: -80px;
+	opacity: 0.9;
+}
+/*******************/
+/*divs que contienen los distintos platos para pedir*/
+div.menu_orden{
+   margin-left: 5px;
+	/*margin-right: auto;
+	float: left;*/
+	border-radius: 20px;
+	width: 280px;
+	height: 300px;
+	z-index: 10;
+	background-color: #000000;
+opacity: 0.1;
+ padding: 5px;
+
+}
+div.menu_orden2{
+   
+	/*margin-right: auto;
+	float: left;*/
+	 margin-left: 5px;
+   margin-top: -310px;
+	border-radius: 20px;
+	width: 280px;
+	height: 300px;
+	z-index: 10;
+ padding: 5px;
+overflow-y: scroll;
+overflow-x:hidden;
+	 font-family: "KreonRegular", sans-serif;
+}
+/*****/
+/* lista del menu*/
+ul.carta li{
+	list-style: none;
+	margin-left: -35px;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+ul.carta li a,
+ul.carta li a:link,
+ul.carta li a:visited {
+
+	text-decoration: none;
+	display: block;
+	padding: 6px 1px;
+	color: #FFFF00;
+	font-size: 100%;
+}
+
+ul.carta li a:hover{
+	color: #FF6600;
+}
+ul.carta li a:active{
+	color: #000033;
+	background-color: #FFCC99
+}
+#pasta:hover{
+	color: #FF6600;
+}
+#pasta{
+	color: #990000;
+	font-size: 100%;
+	text-decoration: none;
+}
+#pastab:hover{
+	color: #FFD700;;
+}
+#pastab{
+	color: #FFD700;;
+	font-size: 100%;
+	text-decoration: none;
+}
+
+
+/**Lista del menú principal ****/
+/* lista del menu*/
+ul.carta{
+	display: none;
+}
+ul.cartaprincipal li{
+	list-style: none;
+	margin-left: -35px;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+ul.cartaprincipal li a,
+ul.cartaprincipal li a:link,
+ul.cartaprincipal li a:visited {
+
+	text-decoration: none;
+	display: block;
+	padding: 6px 1px;
+	color: #FFFF00;
+	font-size: 100%;
+}
+
+ul.cartaprincipal li a:hover{
+	color: #FF6600;
+}
+ul.cartaprincipal li a:active{
+	color: #000033;
+	background-color: #FFCC99
+}
+#pasta:hover{
+	color: #FF6600;
+}
+#pasta{
+	color: #990000;
+	font-size: 100%;
+	text-decoration: none;
+}
+#pastab:hover{
+	color: #FFD700;;
+}
+#pastab{
+	color: #FFD700;;
+	font-size: 100%;
+	text-decoration: none;
+}
+/*los divs de los distintos platos que existen en la carta*/
+div.Pastas {
+	
+	/*margin-top: -310px;
+	margin-right: auto;
+	float: left;*/
+	border-radius: 5px;
+	width: 300px;
+	height: 20px;
+	z-index: 10;
+	background-color: #FFD700;
+    color: #000000 ;
+    opacity: 0.9;
+ padding: 5px;
+}
+div.comida{
+	
+
+	border-radius: 5px;
+	width: 300px;
+	height: 20px;
+	z-index: 10;
+	background-color: #800000;
+    color: yellow;
+    opacity: 0.9;
+ padding: 5px;
+}
+
+/*boton de regresar*/
+div.atras{
+	margin-top: 5px;
+	width: 200px;
+	height: 30px;
+	background-color: #FFD700;
+	border-radius: 10px;
+	margin-left: 30px;
+	text-align: center;
+	opacity: 0.9;
+}
+a.atras{
+display: block;
+text-decoration: none;
+padding: 5px;
+color: #800000;
+opacity: 0.9;
+}
+/************************************/
+
+
+div.orden{
+   margin-left: 300px;
+   margin-top: -310px;
+
+	/*margin-right: auto;
+	position: relative;*/
+	border-radius: 20px;
+	width: 280px;
+	height: 320px;
+	z-index: 10;
+	background-color: #000000;
+opacity: 0.3;
+ padding: 5px;
+}
+div.orden2{
+   margin-left: 300px;
+   margin-top: -310px;
+	border-radius: 20px;
+	width: 280px;
+	height: 320px;
+font-family: "LiberatorRegular",sans-serif;
+ padding: 5px;
+}
+div.orden2 h2{
+   text-align: center;
+opacity: 0.9;
+margin-top: -20px;
+color: rgb(255, 204, 51);
+font-family: "LiberatorRegular",sans-serif;
+
+
+}
+div.orden2 img{
+	opacity: 0.9;
+}
+div.orden2 h3, p{
+	color: #FFFFCC;
+	opacity: 0.9;
+}
+
+div.orden_lista{
+    margin-left: 600px;
+   margin-top: -340px;
+	/*margin-right: auto;
+	float: right;*/
+	border-radius: 20px;
+	width: 280px;
+	height: 300px;
+	
+	background-color: #FFEBA3;
+	opacity: 0.9;
+   overflow-y: scroll;
+overflow-x:hidden;
+ padding: 5px;
+	 font-family: "KreonRegular", sans-serif;
+}
+
+/*Lista de la orden*/
+ul.orden li{
+	list-style: none;
+	margin-left: -35px;
+	margin-top: 15px;
+	font-size: 15px;
+}
+ul.orden li a,
+ul.orden li a:link,
+ul.orden li a:visited {
+
+	text-decoration: none;
+	display: block;
+	padding: 6px 1px;
+	color: #FFFF00;
+	font-size: 100%;
+}
+
+ul.orden li a:hover{
+	color: #FF6600;
+}
+ul.orden li a:active{
+	color: #000033;
+	background-color: #FFCC99
+}
+
+
+a.enviar{
+display: block;
+text-decoration: none;
+padding: 5px;
+color:#800000;
+
+}
+div.comida img{
+
+	width: 20px;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: 230px;
+	opacity: 0.9;
+}
+div.orden2 img{
+
+     width: 280px;
+     border-radius: 5px;
+}
+#enviar{
+	width: 890px;
+     border-radius: 20px;
+     margin-top: 70px;
+     opacity: 0.9;
+     margin-left: 5px;
+     border-radius: 5px;
+
+}
+#atras{
+	width: 280px;
+     border-radius: 5px;
+     opacity: 0.9;
+     margin-top: 20px;
+     display: none;
+}
+
+div.footer{
+
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #FFCC66;
+	margin-top: 55px;
+}
+
+
+/*Ventana emergente */
+div.agregarreceta{
+	opacity: 0.9;
+	float: right;
+	margin-top: -80px;
+	margin-right: 70px;
+}
+
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #131313;
+	opacity: .85;
+	filter: alpha(opacity=85);
+	z-index: 101;
+}
+.modal-window {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	padding: 0;
+	z-index: 102;
+	background: #fff;
+	border: solid 8px #fff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+.close-window {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	right: -23px;
+	top: -23px;
+	background: transparent url(Imagenes/close-button.png) no-repeat scroll right top;
+	text-indent: -99999px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+
+/*Estilos para el formulario de agregar receta*/
+/*Colores:
+titulo:#FFCC33
+letras y field text:#FFEBA3;
+*/
+#cuerpo_a{
+	width: 800px;
+	height: 600px;
+	margin: auto auto;
+	font-family: Arial,Helvetica,sans-serif;
+}
+#h1_a{
+	color: #FFCC33;
+	margin: 50px 30px;
+}
+#lado_der_a{
+	width: 45%;
+	padding: 20px;
+	float: left;
+}
+
+#cuerpo_a input {
+	border-radius: 5px;
+	width: 200px;
+	height: 20px;
+	margin: 10px 0px;
+	float: right;
+	background-color: #FFEBA3;
+	margin-top: 20px;
+}
+#cuerpo_a label{
+	float: left;
+	color: #FFEBA3;
+	margin-top: 35px;
+	font-size: 1em;
+}
+#lado_izq_a{
+	padding: 10px;
+    width: 45%;
+float: right;  
+}
+#lado_izq_a label{
+	padding: 10px;
+    width: 45%;
+float: right;  
+margin-top: -100px;
+margin-top: -40px;
+margin-right: 60
+}
+#l_cd{
+	margin-top: 45px;
+}
+#l_ad{
+	width: 70px;
+}
+#administrador{
+	width: 100px;
+	float: right;
+}
+#passw{
+	margin-left: -100px;
+}
+#cost{
+	margin-left: -100px
+}
+.ingredientes label{
+  margin-left: 100px;s
+}
+/*----------------------------------------------*/

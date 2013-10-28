@@ -1,0 +1,139 @@
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Reportes</title>
+	<link rel="stylesheet" type="text/css" href="e_reporte.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="impresion.css" />
+	<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript" language="javascript" src="js/modal-window.min.js"></script>
+	<script src="js/MesoneroPedido.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+	<section id="membrete">
+		<div class="logo2">
+			<img src="Imagenes/logohome.png" id="logor">
+		</div>
+		<div class="titulo">
+			<h3>LO MEJOR EN GOURMET</h3>
+		</div>
+	</section>
+	<section id="cuerpo">
+		<div class="titulo2">
+			<h2>REPORTES</h2>
+		</div>
+		<section id="reportes">
+			<div class="history" id="historial"><strong>Historial de pedidos</strong> <a href="#"><img src="Imagenes/tarriba.png" id="novisto"><img src="Imagenes/tabajo.png" id="visto"></a></div>
+			<ul class="filtrar">
+				<li>
+					<div class= "ver" id="tiempo"><strong>Por Tiempo</strong> <a href="#"><img src="Imagenes/tarriba.png" id="tnovisto"><img src="Imagenes/tabajo.png" id="tvisto"></a></div>
+					<div  class = "selectiempo "id="selectiempo">
+						<form action="">
+							<select id ="dia" name="ad">
+							<option selected> Todos los días</option>
+							<option value="1.htm">1</option>
+							<option value="2.htm">2</option>
+							<option value="3.htm">3</option>
+							<option value="1.htm">4</option>
+							<option value="2.htm">5</option>
+							<option value="3.htm">6</option>
+							<option value="1.htm">7</option>
+							<option value="2.htm">8</option>
+							<option value="3.htm">9</option>
+							<option value="1.htm">10</option>
+							<option value="2.htm">11</option>
+							<option value="3.htm">12</option>
+							<option value="1.htm">13</option>
+							<option value="2.htm">14</option>
+							<option value="3.htm">15</option>
+							<option value="1.htm">16</option>
+							<option value="2.htm">17</option>
+							<option value="3.htm">18</option>
+							</select>
+							<select id ="mes" name="ad">
+							<option selected> Todos los meses</option>
+							<option value="1.htm">Enero</option>
+							<option value="2.htm">Febrero</option>
+							<option value="3.htm">Marzo</option>
+							</select>
+							<select id ="anos" name="ad">
+							<option selected> Todos los años</option>
+							<option value="1.htm">2011</option>
+							<option value="2.htm">2012</option>
+							<option value="3.htm">2013</option>
+							</select>
+
+
+
+						</form>
+						 <a href="reportest.php" > <img src="Imagenes/ver.png"  id="ver" title="Ver Reporte"></a>
+					</div>
+				</li>
+				<li>
+					<div class= "ver" id="mesonero"><strong>Por Mesonero</strong><a href="#"><img src="Imagenes/tarriba.png" id="mnovisto"><img src="Imagenes/tabajo.png" id="mvisto"></a> </div>
+					<div  class = "selectiempo "id="selectmesonero"> 
+						  <form action="">
+							  <select id ="meso" name="ad">
+									<option selected> Todos los mesoneros</option>
+									<option value="1.htm">Henry</option>
+									<option value="2.htm">Diana</option>
+									<option value="3.htm">Miguel</option>
+									<option value="3.htm">Yorman</option>
+									<option value="3.htm">Angel</option>
+							   </select>
+							</form>
+							<a href="reportesm.php" > <img src="Imagenes/ver.png"  id="verm" title="Ver Reporte"></a>
+					</div>
+				</li>
+				<li>
+					<div class= "ver" id="chef"><strong>Por Chef</strong><a href="#"><img src="Imagenes/tarriba.png" id="chnovisto"><img src="Imagenes/tabajo.png" id="chvisto"></a> </div>
+					<div  class = "selectiempo "id="selectchef">
+						<form action="">
+							  <select id ="meso" name="ad">
+									<option selected> Todos los Chef</option>
+									<option value="1.htm">Henry</option>
+									<option value="2.htm">Diana</option>
+									<option value="3.htm">Miguel</option>
+									<option value="3.htm">Yorman</option>
+									<option value="3.htm">Angel</option>
+							   </select>
+							</form>
+							<a href="reportesch.php" > <img src="Imagenes/ver.png"  id="verch" title="Ver Reporte"></a>
+
+				    </div>
+				</li>
+				<li>
+					<div class= "ver" id="platos"><strong>Por Platos</strong><a href="#"><img src="Imagenes/tarriba.png" id="pnovisto"><img src="Imagenes/tabajo.png" id="pvisto"></a> </div>
+					<div  class = "selectiempo "id="selectplato"> 
+						<form action="">
+							  <select id ="meso" name="ad">
+									<option selected> Todos los Platos</option>
+									<option value="1.htm">Pasta a la bolgnesa</option>
+									<option value="2.htm">Carne Enrollada </option>
+									<option value="3.htm">Pasta a la carbonara</option>
+									<option value="3.htm">Pasta cuatro quesos </option>
+									
+							   </select>
+							</form>
+							<a href="reportesp.php" > <img src="Imagenes/ver.png"  id="verp" title="Ver Reporte"></a>
+
+					</div>
+				</li>
+
+			</ul>
+		</section>
+		
+
+	</section>
+	<footer>
+		<p>
+			&copy; Copyright  by Multimedia
+		</p>
+		<p>
+			&reg; UNET
+		</p>
+	</footer>
+</body>
+</html>

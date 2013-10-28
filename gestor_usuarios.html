@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang=es>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="author" content="Yorman Castellanos"/>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+		<link rel="stylesheet" type="text/css" href="estilo_gestor.css"/>
+		<link rel="stylesheet" type="text/css" media="print" href="impresion.css" />
+		<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script type="text/javascript" language="javascript" src="js/modal-window.min.js"></script>
+		<script src="js/Ejemplos.js" type="text/javascript"></script>
+		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>-->
+		<script type="text/javascript" src="js/jquery.pajinate.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#paging_container5').pajinate({
+					nav_label_first : '<<',
+					nav_label_last : '>>',
+					nav_label_prev : '<',
+					nav_label_next : '>'
+				});
+			});
+
+		</script>
+
+		<title>Raklett "lo mejor en gourmet"</title>
+
+	</head>
+	<body>
+
+		<div class="encabezado">
+			<ul class="menu">
+				<li>
+					<a href="bienvenida.html">INICIO</a>
+				</li>
+				<li>
+					<a href="#">ADMINISTRACION</a>
+				</li>
+				<li>
+					<a href="mesonero.html">MESONERO</a>
+				</li>
+				<li>
+					<a href="chef.html">CHEF</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="gestion_usuario">
+			<div class="tabla_cabecera">
+				<img src="Imagenes/gestor.png">
+				<a href="#"><div class="eliminar" title="Eliminar"></div></a>
+				<a href="editar.html" onclick="$(this).modal({width:833, height:453}).open(); return false;"><div class="editar" title="Editar"></div></a>
+				<a href="agregar.html" onclick="$(this).modal({width:833, height:453}).open(); return false;"><div class="agregar1" title="Agregar"></div></a>
+
+			</div>
+			<div id="paging_container5" class="container">
+				<img src="Imagenes/barra.png">
+				<div class="titulos">
+					<label id="nombre">Nombre</label>
+					<label id="cedula">Cédula</label>
+					<label id="nombreu">Nombre de Usuario</label>
+					<label id="nombreu">Rol</label>
+					<label id="cedula">Teléfono</label>
+					<label id="fecha">Registro</label>
+					<label id="fecha">Último Log</label>
+					<label id="id">ID</label>
+				</div>
+				<div id="users">
+					<ul class="content">
+						<li id="gris">
+							<input type="checkbox" name="option3">
+							<label id="nombre">Yorman Castellanos</label><label id="cedula">181234567</label><label id="nombreu">yorman.castellanos</label><label id="nombreu">Administrador</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">00</label>
+						</li>
+
+						<li>
+							<input type="checkbox" name="option3">
+							<label id="nombre">Miguel Cárdenas</label><label id="cedula">8273650</label><label id="nombreu">miguel.cardenas</label><label id="nombreu">Chef</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">01</label>
+						</li>
+
+						<li id="gris">
+							<input type="checkbox" name="option3">
+							<label id="nombre">Henry Bravo</label><label id="cedula">17326467</label><label id="nombreu">henry.bravo</label><label id="nombreu">Administrador</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">02</label>
+						</li>
+
+						<li>
+							<input type="checkbox" name="option3">
+							<label id="nombre">Angel Bermúdez</label><label id="cedula">3289567</label><label id="nombreu">angel.bermudez</label><label id="nombreu">Mesonero</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">00</label>
+						</li>
+
+						<li id="gris">
+							<input type="checkbox" name="option3">
+							<label id="nombre">Diana Osorio</label><label id="cedula">6453634</label><label id="nombreu">diana.osorio</label><label id="nombreu">Chef</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">03</label>
+						</li>
+
+						<li>
+							<input type="checkbox" name="option3">
+							<label id="nombre">Yorman Castellanos</label><label id="cedula">181234567</label><label id="nombreu">yorman.castellanos</label><label id="nombreu">Administrador</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">00</label>
+						</li>
+
+						<li id="gris">
+							<input type="checkbox" name="option3">
+							<label id="nombre">Yorman Castellanos</label><label id="cedula">181234567</label><label id="nombreu">yorman.castellanos</label><label id="nombreu">Administrador</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">00</label>
+						</li>
+
+						<li>
+							<input type="checkbox" name="option3">
+							<label id="nombre">Yorman Castellanos</label><label id="cedula">181234567</label><label id="nombreu">yorman.castellanos</label><label id="nombreu">Administrador</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">00</label>
+						</li>
+
+						<li id="gris">
+							<input type="checkbox" name="option3">
+							<label id="nombre">Yorman Castellanos</label><label id="cedula">181234567</label><label id="nombreu">yorman.castellanos</label><label id="nombreu">Administrador</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">00</label>
+						</li>
+
+						<li>
+							<input type="checkbox" name="option3">
+							<label id="nombre">Miguel Cárdenas</label><label id="cedula">8273650</label><label id="nombreu">miguel.cardenas</label><label id="nombreu">Chef</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">01</label>
+						</li>
+
+						<li id="gris">
+							<input type="checkbox" name="option3">
+							<label id="nombre">Henry Bravo</label><label id="cedula">17326467</label><label id="nombreu">henry.bravo</label><label id="nombreu">Administrador</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">02</label>
+						</li>
+
+						<li>
+							<input type="checkbox" name="option3">
+							<label id="nombre">Angel Bermúdez</label><label id="cedula">3289567</label><label id="nombreu">angel.bermudez</label><label id="nombreu">Mesonero</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">00</label>
+						</li>
+
+						<li id="gris">
+							<input type="checkbox" name="option3">
+							<label id="nombre">Diana Osorio</label><label id="cedula">6453634</label><label id="nombreu">diana.osorio</label><label id="nombreu">Chef</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">03</label>
+						</li>
+
+						<li>
+							<input type="checkbox" name="option3">
+							<label id="nombre">Yorman Castellanos</label><label id="cedula">181234567</label><label id="nombreu">yorman.castellanos</label><label id="nombreu">Administrador</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">00</label>
+						</li>
+
+						<li id="gris">
+							<input type="checkbox" name="option3">
+							<label id="nombre">Yorman Castellanos</label><label id="cedula">181234567</label><label id="nombreu">yorman.castellanos</label><label id="nombreu">Administrador</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">00</label>
+						</li>
+
+						<li>
+							<input type="checkbox" name="option3">
+							<label id="nombre">Yorman Castellanos</label><label id="cedula">181234567</label><label id="nombreu">yorman.castellanos</label><label id="nombreu">Administrador</label><label id="cedula">0414-0000000</label><label id="fecha">00/00/0000 00:00:00</label><label id="fecha">00/00/0000 00:00:00</label><label id="id">00</label>
+						</li>
+					</ul>
+				</div>
+				<div class="page_navigation"></div>
+			</div>
+
+		</div>
+
+		<div id="footer" class="footer">
+			<img src="Imagenes/linea.png">
+			<img src="Imagenes/rango.png">
+			<img src="Imagenes/linea.png">
+			<br />
+			<img src="Imagenes/logo.png">
+			<footer>
+				<p>
+					&copy; Copyright  by Multimedia
+				</p>
+
+			</footer>
+		</div>
+
+	</body>
+</html>

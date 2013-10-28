@@ -1,0 +1,38 @@
+body {
+	color: #000000;
+	font: 100%/150% Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+}
+img.logo2{
+	text-align: left;
+}
+
+blockquote, ul {
+	margin: 0;
+}
+ul {
+	list-style: none
+}
+li {
+	content: "» ";
+}
+p a:after {
+	content: " ";
+	font-size: 80%;
+}
+p a[href^="#"]:after {
+	display: none;
+}
+p a {
+	word-wrap: break-word;
+}
+a {
+	color: #000;
+}
+
+.page_navigation{
+	
+	position: relative;
+	bottom: 0px;
+	left: 700px;
+}
