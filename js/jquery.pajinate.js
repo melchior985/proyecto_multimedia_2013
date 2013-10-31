@@ -20,7 +20,7 @@
 		// Setup default option values
 		var defaults = {
 			item_container_id : '.content',
-			items_per_page : 6,			
+			items_per_page : 5,			
 			nav_panel_id : '.page_navigation',
 			nav_info_id : '.info_text',
 			num_page_links_to_display : 20,			

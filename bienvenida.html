@@ -10,6 +10,8 @@
 
 		<title>Raklett "lo mejor en gourmet"</title>
 		<link rel="stylesheet" type="text/css" href="estilo.css" />
+		<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="js/SubMenu.js" type="text/javascript"></script>
 		<meta name="description" content="" />
 		<meta name="author" content="Miguel Cardenas" />
 
@@ -25,12 +27,17 @@
 		<div class= "encabezado2">
 			<ul class="menu">
 					<li><a href="bienvenida.html">INICIO</a></li>
-					<li><a href="gestor_usuarios.html">ADMINISTRACION</a></li>
+					<li><a href="gestor_usuarios.html" id="menuadmin">ADMINISTRACIÓN</a></li>
 					<li><a href="mesonero.html">MESONERO</a></li>
 					<li><a href="chef.html">CHEF</a></li>
 				</ul>
 		</div>
-				
+			<div class ="submenu" id="subm"> 	
+			<ul class="smenu">
+					<li><a href="gestor_usuarios.html" id="smusuario">USUARIOS</a></li>
+					<li><a href="indexreportes.html" id="smureport">REPORTES</a></li>
+		    </ul>
+		</div>				
 		<br />
 		<br />
 		<div class="general">

@@ -19,3 +19,22 @@ p a {
 a {
 	color: #000;
 }
+.atras{
+	display: none;
+	position: absolute;	
+	top: 45%;
+}
+footer{
+	position: relative;
+	bottom: -12%;
+}
+.page_navigation{
+	display: none;
+position: absolute;
+bottom: -50%;
+
+}
+.total{
+	position: relative;
+	bottom: -8%;
+}

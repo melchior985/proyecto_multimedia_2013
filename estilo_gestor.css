@@ -38,6 +38,63 @@ ul.menu li a:active{
 	color: #000033;
 	background-color: #FFCC99
 }
+
+/*SubMenu de Administración*/
+.submenu{
+	width: 120px;
+	height: 70px;
+	background: url(Imagenes/fondosm.png);
+	background-repeat: repeat;
+	background-position: center;
+	float: center;
+	position: absolute;
+	text-align: center;
+	padding: 2px;
+	margin-left: 560px;
+	margin-top: -15px;
+	color: #330033;
+	text-decoration: none;
+	display: block;
+}
+ul.smenu li{
+	list-style: none;
+	float: left;
+	font-size: 13px;
+	margin-top: -5px;
+	margin-left: -10px;
+	text-align: center;
+}
+ul.smenu li a,
+ul.smenu li a:link,
+ul.smenu li a:visited{
+	text-decoration: none;
+	display: block;
+	
+	color: #330033;
+	font-size: 100%;
+	padding: 6px 1px;
+	/*background-color: #FFCC88;*/
+}
+ul.smenu li a:hover{
+	color: #FF6600;
+}
+ul.smenu li a:active{
+	color: #000033;
+	background-color: #FFCC99
+}
+
+#smusuario{
+	margin-top: -15px;
+	margin-left: -5px;
+
+}
+#smureport{
+	margin-left: -5px;
+	margin-top: 5px;
+}
+
+/*******Fin del SubMenu**************/
+
 /*
 gention del usuario
 */
@@ -206,7 +263,28 @@ li{
 .titulos{
 	margin-left: 90px;
 }
+div.reporte{
+	width: 170px;
+	height: 25px;
+	margin-left: 870px;
+	border-radius: 5px;
+	background-color: #800000;
+	text-align:center;
+	margin-top: 5px;	
+}
+.reporte h2 a{
+	color: #FFCC33;
+	text-decoration: none;
+	font-family: "LiberatorRegular",sans-serif;
 
+}
+.reporte h2 a:hover{
+	color: #800000;
+}
+.reporte:hover{
+
+	background-color: #FFCC33;
+}
 div.footer{
 
 	margin-right: auto;

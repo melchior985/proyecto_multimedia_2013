@@ -76,7 +76,7 @@ body {
 
 .ver{
 	background-color: #800000;
-	width: 40%;
+	width: 50%;
 	height: 30px;
 	border-radius: 10px;
 	color: #FFCC33;
@@ -120,12 +120,12 @@ ul.filtrar li{
 
 /*REPORTESS LISTOS*/
 .botones{
-	position: relative;
+   position: relative;
     text-align: right;
     float: left;
     width: 100%;    
-    top: -530px;
-    right: 50px;
+    top: -400px;
+    right: -30px;
 }
 button.CSV{
 	position:relative;	
@@ -136,15 +136,14 @@ form.exportar{
 	position: absolute;
 	width: 25px;
 	height: 25px;
-	left: 1020px;
-	top: 0px;
-	
-	
+	right: -20px;
+	top: 0px;	
 }
 #imprimir, #pdf, #csv{
+
 	width: 25px;
 	height: 25px;
-	
+	;
 }
 
 #imprimir:active , #pdf:active , #csv:active {
@@ -165,93 +164,207 @@ form.exportar{
 .titulo2{
 	text-align: center;
 }
-.filtro{
-  	width: 20%;
-  	height: auto;
-  	background: url(Imagenes/fondorepor.png);
-  	background-repeat: repeat;
-	display: inline-block;
-	margin-left: 10px;
-	box-shadow: 5px 5px 5px #000000;
+
+
+
+
+
+
+/*******ESTILO DE TABLA NUEVO*/
+div.gestion_usuario{
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	width: 900px;
+	height: 395px;
 
 }
-.filtrop{
-  	width: 30%;
-  	height: auto;
-  	background: url(Imagenes/fondorepor.png);
-  	background-repeat: repeat;
-	display: inline-block;
-	margin-left: 10px;
-	box-shadow: 5px 5px 5px #000000;
 
+div.tabla_cabecera{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	width: 900px;
+	height: 85px;
+	text-align: center;
 }
-ul.content li{
-	list-style: none;
-	margin-left: -60px;
-	
-	
+div.tabla_cabecera img{
+	margin-top: 10px;
 }
-
-.caja{
-	width: 100%;
-	height: auto;
-	display: inline-block;
-	padding: 10px 10px;
-}
-
-.nombre{
-	width: 20%;
-	height: auto;
-	background: url(Imagenes/fondorepor.png);
-	background-repeat: repeat;
-	float: left;
-	margin-left: 20px;
-	box-shadow: 5px 5px 5px #000000;
-
-}
-.nombre p{
-	color: #330033;
-	text-align: left;
-	font-size: 17px;
-
+.tabla_cabecera strong{
+	margin-left: 350px;
 }
 #info{
 	float: right;
-	margin-top: -22px;
-	color: #FFCC33;
-	font-size: 17px;
+	color: orange;
+	margin-right: 400px;
 }
-.orden{
-	width: 70%;
-	height: auto;
-	background: url(Imagenes/fondorepor2.png);
-	background-repeat: repeat;
+.total{
+	position: absolute;
+	bottom: -5%;
+	margin-left: 50px;
+	margin-top: 10px
+	
+}
+#t{
+	color: orange;
+}
+div.botones_gestion{
+   float: right;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: auto;
+}
+
+
+
+li{
+	list-style: none;	
+}
+
+.container{
+	position: relative;
+	left: -40px;
+	border-radius: 10px;
+	width: 900px;
+	height: 250px;
+	padding: 20px;
+}
+.container img{
+	margin-left: 50px;
+	margin-top: -5px;
+}
+.titulos{
+	position: absolute;
+	left: -5px;
+	top: -20px;
+}
+
+
+.titulos label{
+	
 	display: inline-block;
-	margin-left: 10px;
-	box-shadow: 5px 5px 5px #000000;
+	color: orange;
+	font-family: "Cambria";
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 4px;
+	margin-left: -10px;
 }
-.orden p
-{
-	color: #330033;
+
+.titulosp{
+	position: absolute;
+	left: -5px;
+	top: -20px;
+}
+
+
+.titulosp label{
+	
+	display: inline-block;
+	color: orange;
+	font-family: "Cambria";
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 2px;
+	margin-left: 20px;
+}
+
+.content label{
+	display: inline-block;
+	text-align:center;
+	margin-right: 4px;
+}
+#mesonero{
+	
+	width: 80px;
+}
+#chef{
+	width: 80px;
+}
+#dia{
+	width: 20px;
+	margin-left: -10px;
+}
+#fecha{
+	width: 80px;
+	margin-left: -10px;
+}
+#orden{
+
+	width: 80px;
+	margin-left: -10px;
+}
+#plato1, #plato2, #plato3, #plato4, #plato5{
+	
+	width: 100px;
+	margin-left: -10px;
+}
+#platosp{
+	width: 200px;
 	
 }
-#info2
-{
+#diap{
+	width: 150px;
 	
-	margin-top: -20px;
-	color: #FFCC33;
-	font-size: 17px;
-	text-align: left;
-	margin-left: 100px;
 }
-#info3
-{
-	margin-top: -20px;
-	color: #FFCC33;
-	font-size: 17px;
-	text-align: left;
-	margin-left: 100px;
+#fechap{
+	width: 150px;
+	
 }
+#ordenp{
+
+	width: 150px;
+	
+}
+#cantidadp{
+
+	width: 150px;
+
+}
+#gris{
+
+	background-color:rgb(195,195,195);
+}
+.page_navigation{
+	
+	position: absolute;
+	bottom: -8%;
+	left: 700px;
+}
+.page_navigation , .alt_page_navigation{
+	padding-bottom: 10px;
+}
+
+.page_navigation a, .alt_page_navigation a{
+	
+	padding:3px 5px;
+	margin:2px;
+	color:white;
+	text-decoration:none;
+	float: left;
+	font-family: Tahoma;
+	font-size: 12px;
+	background-color:#DB5C04;
+}
+.active_page{
+	background-color:white !important;
+	color:black !important;
+}	
+.content li{
+	font-size: 13px;
+	padding: 5px;
+	width:100%;
+
+}
+
+
+.titulos{
+	margin-left: 90px;
+}
+
 footer{
 	width: 1024px;
 	height: auto;
@@ -259,6 +372,14 @@ footer{
 	text-align: center;
 	margin-top: 20px;
 	color: #FFCC33;
+}
+.atras{
+	margin-left: 400px;
+	margin-top: 20px;
+
+}
+#atras{
+	border-radius: 10px;
 }
 
 @media screen and (max-width: 400px){
